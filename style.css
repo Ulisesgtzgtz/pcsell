@@ -1,0 +1,105 @@
+body{
+    background-image: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)),
+    url(Logo.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: right;
+    border-right:1px solid #333;
+  }
+  
+  li:last-child {
+    border-right: none;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #04AA6D;
+  }
+
+  .left{
+      float: left;
+  }
+  
+  
+  
+  
+.pru {
+    outline: none;
+    text-decoration: none;
+    display: inline-block;
+    width: 19.5%;
+    margin-right: 0.625%;
+    text-align: center;
+    line-height: 3;
+    color: black;
+  }
+  
+
+  .ver {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 130px;
+    background-color: #000000;
+  }
+  
+  .vertical{
+    display: block;
+    color: rgb(255, 255, 255);
+    padding: 8px 16px;
+    text-decoration: none;
+    
+  }
+
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+
+  div.gallery:hover {
+    -webkit-transform:scale(1.3);
+    transform:scale(1.3);
+  }
+  
+  div.gallery {
+    margin: 5px;
+    float: left;
+    width: 350px;
+  }
+  
+  a {
+    color: rgb(255, 255, 255);
+  }
+
+  h1 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+  }
+
+  p {
+    text-align: center;
+    font-size: xx-large;
+    color: rgb(255, 255, 255);
+  }
